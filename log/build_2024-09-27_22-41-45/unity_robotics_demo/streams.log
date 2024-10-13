@@ -1,0 +1,31 @@
+[0.504s] Invoking command in '/home/webdrag0n/morpheus/workspace_colcon/src/unity_robotics_demo': PYTHONPATH=/home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo/build install --record /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo/install.log --install-scripts $base/lib/unity_robotics_demo --single-version-externally-managed install_data
+[0.632s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.632s]   warnings.warn(
+[0.636s] running egg_info
+[0.636s] writing ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/PKG-INFO
+[0.636s] writing dependency_links to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/dependency_links.txt
+[0.636s] writing entry points to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/entry_points.txt
+[0.637s] writing requirements to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/requires.txt
+[0.637s] writing top-level names to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/top_level.txt
+[0.658s] reading manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'
+[0.659s] writing manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'
+[0.659s] running build
+[0.659s] running build_py
+[0.659s] copying unity_robotics_demo/color_publisher.py -> /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo/build/lib/unity_robotics_demo
+[0.660s] copying unity_robotics_demo/h1_control_publisher.py -> /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo/build/lib/unity_robotics_demo
+[0.668s] running install
+[0.668s] running install_lib
+[0.680s] copying /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo/build/lib/unity_robotics_demo/color_publisher.py -> /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/lib/python3.10/site-packages/unity_robotics_demo
+[0.680s] copying /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo/build/lib/unity_robotics_demo/h1_control_publisher.py -> /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/lib/python3.10/site-packages/unity_robotics_demo
+[0.680s] byte-compiling /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/lib/python3.10/site-packages/unity_robotics_demo/color_publisher.py to color_publisher.cpython-310.pyc
+[0.696s] byte-compiling /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/lib/python3.10/site-packages/unity_robotics_demo/h1_control_publisher.py to h1_control_publisher.cpython-310.pyc
+[0.696s] running install_data
+[0.696s] running install_egg_info
+[0.697s] removing '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/lib/python3.10/site-packages/unity_robotics_demo-0.0.1-py3.10.egg-info' (and everything under it)
+[0.704s] Copying ../../build/unity_robotics_demo/unity_robotics_demo.egg-info to /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/lib/python3.10/site-packages/unity_robotics_demo-0.0.1-py3.10.egg-info
+[0.712s] running install_scripts
+[0.722s] Installing color_publisher script to /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/lib/unity_robotics_demo
+[0.723s] Installing h1_control_publisher script to /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/lib/unity_robotics_demo
+[0.723s] Installing position_service script to /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/lib/unity_robotics_demo
+[0.723s] writing list of installed files to '/home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo/install.log'
+[0.820s] Invoked command in '/home/webdrag0n/morpheus/workspace_colcon/src/unity_robotics_demo' returned '0': PYTHONPATH=/home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo/build install --record /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo/install.log --install-scripts $base/lib/unity_robotics_demo --single-version-externally-managed install_data

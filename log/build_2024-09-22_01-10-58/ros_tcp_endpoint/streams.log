@@ -1,0 +1,24 @@
+[0.545s] Invoking command in '/home/webdrag0n/morpheus/workspace_colcon/src/ROS-TCP-Endpoint': PYTHONPATH=/home/webdrag0n/morpheus/workspace_colcon/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/webdrag0n/morpheus/workspace_colcon/build/ros_tcp_endpoint/build install --record /home/webdrag0n/morpheus/workspace_colcon/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
+[0.674s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.674s]   warnings.warn(
+[0.679s] running egg_info
+[0.680s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[0.680s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[0.681s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[0.681s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[0.681s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[0.682s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[0.683s] adding license file 'LICENSE'
+[0.683s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[0.683s] running build
+[0.684s] running build_py
+[0.684s] running install
+[0.684s] running install_lib
+[0.686s] running install_data
+[0.686s] running install_egg_info
+[0.687s] removing '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info' (and everything under it)
+[0.688s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info
+[0.689s] running install_scripts
+[0.701s] Installing default_server_endpoint script to /home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[0.702s] writing list of installed files to '/home/webdrag0n/morpheus/workspace_colcon/build/ros_tcp_endpoint/install.log'
+[0.734s] Invoked command in '/home/webdrag0n/morpheus/workspace_colcon/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/home/webdrag0n/morpheus/workspace_colcon/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/webdrag0n/morpheus/workspace_colcon/build/ros_tcp_endpoint/build install --record /home/webdrag0n/morpheus/workspace_colcon/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data

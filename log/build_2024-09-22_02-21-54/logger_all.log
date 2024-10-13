@@ -1,0 +1,251 @@
+[0.231s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.231s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9b0eacbbe0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9b0eacb790>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9b0eacb790>>)
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.302s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/webdrag0n/morpheus/workspace_colcon'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-TCP-Endpoint' with type 'ros.ament_python' and name 'ros_tcp_endpoint'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'ros'
+[0.312s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unity_robotics_demo' with type 'ros.ament_python' and name 'unity_robotics_demo'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unity_robotics_demo_msgs' with type 'ros.ament_cmake' and name 'unity_robotics_demo_msgs'
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.324s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/webdrag0n/morpheus/workspace_colcon/install
+[0.325s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.352s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/webdrag0n/morpheus/workspace_colcon/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/home/webdrag0n/morpheus/workspace_colcon/src/ROS-TCP-Endpoint', 'symlink_install': False, 'test_result_base': None}
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_target' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.353s] DEBUG:colcon.colcon_core.verb:Building package 'unity_robotics_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo', 'merge_install': False, 'path': '/home/webdrag0n/morpheus/workspace_colcon/src/unity_robotics_demo', 'symlink_install': False, 'test_result_base': None}
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.353s] DEBUG:colcon.colcon_core.verb:Building package 'unity_robotics_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs', 'merge_install': False, 'path': '/home/webdrag0n/morpheus/workspace_colcon/src/unity_robotics_demo_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.353s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.354s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.354s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/webdrag0n/morpheus/workspace_colcon/src/ROS-TCP-Endpoint' with build type 'ament_python'
+[0.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[0.356s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.ps1'
+[0.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.dsv'
+[0.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.sh'
+[0.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.359s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/webdrag0n/morpheus/workspace_colcon/src/unity_robotics_demo' with build type 'ament_python'
+[0.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo', 'ament_prefix_path')
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/share/unity_robotics_demo/hook/ament_prefix_path.ps1'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/share/unity_robotics_demo/hook/ament_prefix_path.dsv'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/share/unity_robotics_demo/hook/ament_prefix_path.sh'
+[0.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.363s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/webdrag0n/morpheus/workspace_colcon/src/unity_robotics_demo_msgs' with build type 'ament_cmake'
+[0.363s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/webdrag0n/morpheus/workspace_colcon/src/unity_robotics_demo_msgs'
+[0.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.507s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/webdrag0n/morpheus/workspace_colcon/src/ROS-TCP-Endpoint'
+[0.507s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.507s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.636s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/webdrag0n/morpheus/workspace_colcon/src/unity_robotics_demo'
+[0.636s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.636s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo:/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --build /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo_msgs -- -j16 -l16
+[0.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/webdrag0n/morpheus/workspace_colcon/src/ROS-TCP-Endpoint': PYTHONPATH=/home/webdrag0n/morpheus/workspace_colcon/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/webdrag0n/morpheus/workspace_colcon/build/ros_tcp_endpoint/build install --record /home/webdrag0n/morpheus/workspace_colcon/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
+[0.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/webdrag0n/morpheus/workspace_colcon/src/unity_robotics_demo': PYTHONPATH=/home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo/build install --record /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo/install.log --install-scripts $base/lib/unity_robotics_demo --single-version-externally-managed install_data
+[0.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo:/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --build /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo_msgs -- -j16 -l16
+[0.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo:/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --install /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo_msgs
+[1.042s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unity_robotics_demo_msgs)
+[1.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo:/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --install /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo_msgs
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs' for CMake module files
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs' for CMake config files
+[1.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'cmake_prefix_path')
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.ps1'
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.dsv'
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.sh'
+[1.050s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/lib'
+[1.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'ld_library_path_lib')
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.ps1'
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.dsv'
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.sh'
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/bin'
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/lib/pkgconfig/unity_robotics_demo_msgs.pc'
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/lib/python3.10/site-packages'
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/bin'
+[1.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.ps1'
+[1.053s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.dsv'
+[1.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.sh'
+[1.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.bash'
+[1.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.zsh'
+[1.055s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/colcon-core/packages/unity_robotics_demo_msgs)
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint' for CMake module files
+[1.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/webdrag0n/morpheus/workspace_colcon/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/home/webdrag0n/morpheus/workspace_colcon/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/webdrag0n/morpheus/workspace_colcon/build/ros_tcp_endpoint/build install --record /home/webdrag0n/morpheus/workspace_colcon/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint' for CMake config files
+[1.069s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/lib'
+[1.069s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/bin'
+[1.069s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[1.069s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/lib/python3.10/site-packages'
+[1.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[1.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.ps1'
+[1.069s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.dsv'
+[1.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.sh'
+[1.070s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/bin'
+[1.070s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_tcp_endpoint)
+[1.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[1.070s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[1.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[1.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[1.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[1.071s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo' for CMake module files
+[1.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/webdrag0n/morpheus/workspace_colcon/src/unity_robotics_demo' returned '0': PYTHONPATH=/home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo/build install --record /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo/install.log --install-scripts $base/lib/unity_robotics_demo --single-version-externally-managed install_data
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo' for CMake config files
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/lib'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/bin'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/lib/pkgconfig/unity_robotics_demo.pc'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/lib/python3.10/site-packages'
+[1.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo', 'pythonpath')
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/share/unity_robotics_demo/hook/pythonpath.ps1'
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/share/unity_robotics_demo/hook/pythonpath.dsv'
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/share/unity_robotics_demo/hook/pythonpath.sh'
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/bin'
+[1.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unity_robotics_demo)
+[1.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/share/unity_robotics_demo/package.ps1'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/share/unity_robotics_demo/package.dsv'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/share/unity_robotics_demo/package.sh'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/share/unity_robotics_demo/package.bash'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/share/unity_robotics_demo/package.zsh'
+[1.075s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo/share/colcon-core/packages/unity_robotics_demo)
+[1.149s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unity_robotics_demo_msgs)
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs' for CMake module files
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs' for CMake config files
+[1.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'cmake_prefix_path')
+[1.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.ps1'
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.dsv'
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.sh'
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/lib'
+[1.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'ld_library_path_lib')
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.ps1'
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.dsv'
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.sh'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/bin'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/lib/pkgconfig/unity_robotics_demo_msgs.pc'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/lib/python3.10/site-packages'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/bin'
+[1.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.ps1'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.dsv'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.sh'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.bash'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.zsh'
+[1.152s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/colcon-core/packages/unity_robotics_demo_msgs)
+[1.153s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.153s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.154s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.154s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.229s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.229s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.229s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.229s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.229s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[1.229s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.230s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/webdrag0n/morpheus/workspace_colcon/install/local_setup.ps1'
+[1.230s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/webdrag0n/morpheus/workspace_colcon/install/_local_setup_util_ps1.py'
+[1.231s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/webdrag0n/morpheus/workspace_colcon/install/setup.ps1'
+[1.231s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/webdrag0n/morpheus/workspace_colcon/install/local_setup.sh'
+[1.231s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/webdrag0n/morpheus/workspace_colcon/install/_local_setup_util_sh.py'
+[1.232s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/webdrag0n/morpheus/workspace_colcon/install/setup.sh'
+[1.232s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/webdrag0n/morpheus/workspace_colcon/install/local_setup.bash'
+[1.233s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/webdrag0n/morpheus/workspace_colcon/install/setup.bash'
+[1.233s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/webdrag0n/morpheus/workspace_colcon/install/local_setup.zsh'
+[1.233s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/webdrag0n/morpheus/workspace_colcon/install/setup.zsh'

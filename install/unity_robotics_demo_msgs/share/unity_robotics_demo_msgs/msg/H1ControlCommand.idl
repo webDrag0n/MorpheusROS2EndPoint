@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from unity_robotics_demo_msgs/msg/H1ControlCommand.msg
+// generated code does not contain a copyright notice
+
+
+module unity_robotics_demo_msgs {
+  module msg {
+    struct H1ControlCommand {
+      float left_hip_yaw;
+
+      float left_hip_roll;
+
+      float left_hip_pitch;
+
+      float left_knee;
+
+      float left_ankle;
+
+      float right_hip_yaw;
+
+      float right_hip_roll;
+
+      float right_hip_pitch;
+
+      float right_knee;
+
+      float right_ankle;
+
+      float torso;
+
+      float left_shoulder_pitch;
+
+      float left_shoulder_roll;
+
+      float left_shoulder_yaw;
+
+      float left_elbow;
+
+      float right_shoulder_pitch;
+
+      float right_shoulder_roll;
+
+      float right_shoulder_yaw;
+
+      float right_elbow;
+    };
+  };
+};

@@ -1,0 +1,219 @@
+[0.259s] Invoking command in '/home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo:/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --build /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo_msgs -- -j16 -l16
+[0.336s] [  1%] Built target unity_robotics_demo_msgs__cpp
+[0.340s] [ 12%] Built target unity_robotics_demo_msgs__rosidl_generator_c
+[0.361s] [ 12%] Built target ament_cmake_python_copy_unity_robotics_demo_msgs
+[0.361s] [ 23%] Built target unity_robotics_demo_msgs__rosidl_typesupport_cpp
+[0.362s] [ 34%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_c
+[0.363s] [ 45%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c
+[0.363s] [ 63%] Built target unity_robotics_demo_msgs__rosidl_typesupport_c
+[0.364s] [ 67%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[0.367s] [ 78%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_cpp
+[0.378s] [ 78%] Built target unity_robotics_demo_msgs
+[0.392s] [ 80%] Built target unity_robotics_demo_msgs__py
+[0.407s] [ 89%] Built target unity_robotics_demo_msgs__rosidl_generator_py
+[0.423s] [ 92%] Built target unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.423s] [ 96%] Built target unity_robotics_demo_msgs__rosidl_typesupport_c__pyext
+[0.424s] [100%] Built target unity_robotics_demo_msgs__rosidl_typesupport_introspection_c__pyext
+[0.494s] running egg_info
+[0.494s] writing unity_robotics_demo_msgs.egg-info/PKG-INFO
+[0.495s] writing dependency_links to unity_robotics_demo_msgs.egg-info/dependency_links.txt
+[0.495s] writing top-level names to unity_robotics_demo_msgs.egg-info/top_level.txt
+[0.496s] reading manifest file 'unity_robotics_demo_msgs.egg-info/SOURCES.txt'
+[0.497s] writing manifest file 'unity_robotics_demo_msgs.egg-info/SOURCES.txt'
+[0.514s] [100%] Built target ament_cmake_python_build_unity_robotics_demo_msgs_egg
+[0.522s] Invoked command in '/home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo:/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --build /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo_msgs -- -j16 -l16
+[0.612s] Invoking command in '/home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo:/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --install /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo_msgs
+[0.617s] -- Install configuration: ""
+[0.617s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/unity_robotics_demo_msgs
+[0.617s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs
+[0.618s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv
+[0.618s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/position_service.h
+[0.618s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/object_pose_service.h
+[0.618s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail
+[0.618s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/object_pose_service__struct.h
+[0.619s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/object_pose_service__type_support.h
+[0.619s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/position_service__functions.c
+[0.619s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/position_service__functions.h
+[0.619s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/position_service__struct.h
+[0.619s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/object_pose_service__functions.h
+[0.619s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/position_service__type_support.h
+[0.620s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/object_pose_service__functions.c
+[0.620s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg
+[0.620s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/pos_rot.h
+[0.620s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.620s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail
+[0.620s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/pos_rot__type_support.h
+[0.620s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/unity_color__type_support.h
+[0.620s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/pos_rot__struct.h
+[0.620s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/unity_color__functions.c
+[0.620s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/unity_color__struct.h
+[0.620s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/pos_rot__functions.h
+[0.621s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/pos_rot__functions.c
+[0.621s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/unity_color__functions.h
+[0.621s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/unity_color.h
+[0.621s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/library_path.sh
+[0.621s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/library_path.dsv
+[0.621s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_generator_c.so
+[0.621s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs
+[0.621s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv
+[0.622s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail
+[0.622s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/object_pose_service__rosidl_typesupport_fastrtps_c.h
+[0.622s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/position_service__rosidl_typesupport_fastrtps_c.h
+[0.622s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg
+[0.622s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.622s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail
+[0.623s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/unity_color__rosidl_typesupport_fastrtps_c.h
+[0.623s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/pos_rot__rosidl_typesupport_fastrtps_c.h
+[0.623s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_fastrtps_c.so
+[0.623s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs
+[0.623s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv
+[0.623s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail
+[0.624s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/position_service__type_support.c
+[0.624s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/position_service__rosidl_typesupport_introspection_c.h
+[0.624s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/object_pose_service__rosidl_typesupport_introspection_c.h
+[0.624s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/object_pose_service__type_support.c
+[0.624s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg
+[0.624s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.624s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail
+[0.624s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/pos_rot__rosidl_typesupport_introspection_c.h
+[0.624s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/unity_color__rosidl_typesupport_introspection_c.h
+[0.625s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/pos_rot__type_support.c
+[0.625s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/unity_color__type_support.c
+[0.625s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_introspection_c.so
+[0.626s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_c.so
+[0.626s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs
+[0.626s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv
+[0.626s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/position_service.hpp
+[0.626s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail
+[0.627s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/position_service__builder.hpp
+[0.627s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/object_pose_service__struct.hpp
+[0.627s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/position_service__struct.hpp
+[0.627s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/position_service__traits.hpp
+[0.627s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/object_pose_service__builder.hpp
+[0.627s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/object_pose_service__traits.hpp
+[0.627s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/object_pose_service.hpp
+[0.627s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg
+[0.627s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/pos_rot.hpp
+[0.627s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail
+[0.628s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/pos_rot__struct.hpp
+[0.628s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/unity_color__traits.hpp
+[0.628s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/pos_rot__traits.hpp
+[0.628s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/unity_color__builder.hpp
+[0.628s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/unity_color__struct.hpp
+[0.628s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/pos_rot__builder.hpp
+[0.628s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/unity_color.hpp
+[0.628s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs
+[0.629s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv
+[0.629s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail
+[0.629s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/position_service__rosidl_typesupport_fastrtps_cpp.hpp
+[0.629s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/object_pose_service__rosidl_typesupport_fastrtps_cpp.hpp
+[0.629s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/dds_fastrtps
+[0.629s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg
+[0.630s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.630s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail
+[0.630s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/pos_rot__rosidl_typesupport_fastrtps_cpp.hpp
+[0.630s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/dds_fastrtps
+[0.630s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/unity_color__rosidl_typesupport_fastrtps_cpp.hpp
+[0.631s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.631s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs
+[0.631s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv
+[0.631s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail
+[0.632s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/object_pose_service__type_support.cpp
+[0.632s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/position_service__type_support.cpp
+[0.632s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/object_pose_service__rosidl_typesupport_introspection_cpp.hpp
+[0.632s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/srv/detail/position_service__rosidl_typesupport_introspection_cpp.hpp
+[0.632s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg
+[0.632s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail
+[0.633s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/pos_rot__type_support.cpp
+[0.633s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/unity_color__type_support.cpp
+[0.633s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/pos_rot__rosidl_typesupport_introspection_cpp.hpp
+[0.633s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/include/unity_robotics_demo_msgs/unity_robotics_demo_msgs/msg/detail/unity_color__rosidl_typesupport_introspection_cpp.hpp
+[0.633s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_introspection_cpp.so
+[0.634s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_typesupport_cpp.so
+[0.635s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/pythonpath.sh
+[0.635s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/pythonpath.dsv
+[0.635s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs-0.0.1-py3.10.egg-info
+[0.635s] -- Installing: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs-0.0.1-py3.10.egg-info/top_level.txt
+[0.635s] -- Installing: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs-0.0.1-py3.10.egg-info/dependency_links.txt
+[0.635s] -- Installing: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs-0.0.1-py3.10.egg-info/SOURCES.txt
+[0.635s] -- Installing: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs-0.0.1-py3.10.egg-info/PKG-INFO
+[0.636s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs
+[0.636s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/libunity_robotics_demo_msgs__rosidl_generator_py.so
+[0.636s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/_unity_robotics_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.636s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/srv
+[0.637s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/srv/_position_service.py
+[0.637s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/srv/_object_pose_service_s.c
+[0.637s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/srv/_position_service_s.c
+[0.637s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/srv/__init__.py
+[0.637s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/srv/_object_pose_service.py
+[0.637s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/_unity_robotics_demo_msgs_s.ep.rosidl_typesupport_c.c
+[0.637s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.637s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/msg
+[0.637s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/msg/_unity_color.py
+[0.637s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/msg/_pos_rot.py
+[0.637s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/msg/_unity_color_s.c
+[0.637s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/msg/_pos_rot_s.c
+[0.637s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/msg/__init__.py
+[0.637s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.637s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/_unity_robotics_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.637s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.637s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/__init__.py
+[0.662s] Listing '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs'...
+[0.662s] Listing '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/msg'...
+[0.662s] Listing '/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/srv'...
+[0.665s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.666s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.667s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/local/lib/python3.10/dist-packages/unity_robotics_demo_msgs/unity_robotics_demo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.668s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/lib/libunity_robotics_demo_msgs__rosidl_generator_py.so
+[0.668s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/PosRot.idl
+[0.668s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/UnityColor.idl
+[0.669s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/PositionService.idl
+[0.669s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/ObjectPoseService.idl
+[0.669s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/PosRot.msg
+[0.670s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/msg/UnityColor.msg
+[0.670s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/PositionService.srv
+[0.670s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/PositionService_Request.msg
+[0.670s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/PositionService_Response.msg
+[0.670s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/ObjectPoseService.srv
+[0.670s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/ObjectPoseService_Request.msg
+[0.670s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/srv/ObjectPoseService_Response.msg
+[0.670s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/ament_index/resource_index/package_run_dependencies/unity_robotics_demo_msgs
+[0.671s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/ament_index/resource_index/parent_prefix_path/unity_robotics_demo_msgs
+[0.671s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/ament_prefix_path.sh
+[0.671s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/ament_prefix_path.dsv
+[0.671s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/path.sh
+[0.671s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/environment/path.dsv
+[0.671s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/local_setup.bash
+[0.671s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/local_setup.sh
+[0.671s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/local_setup.zsh
+[0.672s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/local_setup.dsv
+[0.672s] -- Installing: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.dsv
+[0.672s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/ament_index/resource_index/packages/unity_robotics_demo_msgs
+[0.672s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/export_unity_robotics_demo_msgs__rosidl_generator_cExport.cmake
+[0.672s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/export_unity_robotics_demo_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.672s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/export_unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.673s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/export_unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.673s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.673s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.673s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_cExport.cmake
+[0.673s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.674s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/export_unity_robotics_demo_msgs__rosidl_generator_cppExport.cmake
+[0.674s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/export_unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.674s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/export_unity_robotics_demo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.674s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.675s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.675s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_cppExport.cmake
+[0.675s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.675s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/export_unity_robotics_demo_msgs__rosidl_generator_pyExport.cmake
+[0.676s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/export_unity_robotics_demo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.676s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/rosidl_cmake-extras.cmake
+[0.676s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.676s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.676s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.676s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.676s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.676s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.676s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgsConfig.cmake
+[0.676s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgsConfig-version.cmake
+[0.676s] -- Up-to-date: /home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.xml
+[0.678s] Invoked command in '/home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/webdrag0n/morpheus/workspace_colcon/install/unity_robotics_demo:/home/webdrag0n/morpheus/workspace_colcon/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --install /home/webdrag0n/morpheus/workspace_colcon/build/unity_robotics_demo_msgs
